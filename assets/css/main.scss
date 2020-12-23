@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400%3b700&display=swap');
+//файл обнуляющих стилей
+@import "nullstyle";
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.custom-active-link {
+  text-decoration-line: underline;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F1F1F;
+}
+.custom-exact-active-link{
+  text-decoration-line: underline;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F1F1F;
+}
+
+a{
+  color: #1F1F1F;
+}
+
+a:hover{
+  color: #59606D;
+}
+a:active{
+  color: #1F1F1F;
+}
+
