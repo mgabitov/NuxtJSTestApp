@@ -11,7 +11,7 @@
       </div>
       <div :class="$style['item-visual__add-cart']">
         <a href="#" v-if="!isInCart" @click.prevent="addToCart(id, name, rating, price, photo)"><img src="~/assets/images/cart.png"></a>
-        <img v-else src="~/assets/images/cart_filled.png">
+        <img v-else src="~/assets/images/cartfilled.png">
       </div>
     </div>
     <div :class="$style['item-description']">
